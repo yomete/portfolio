@@ -1,0 +1,10 @@
+<section class="container" ng-controller="showImages">
+	<div class="container">
+		  <div class="row">
+		  	<div class="spot col-md-6 col-sm-6 col-xs-12" ng-repeat="p in pics">
+			<!-- <p><a href="http://instagram.com/{{p.user.username}}" target="_blank">{{p.user.username}}</a></p> -->
+			<a href="{{p.link}}" target="_blank"><img class="instagram_feed" ng-src="{{p.images.standard_resolution.url}}" /></a>
+		  	</div>
+		  </div>
+	</div>
+</section>

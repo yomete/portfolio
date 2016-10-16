@@ -1,0 +1,7 @@
+{
+     "name": "yomi-eluwande-portfolio-site",
+     "main": "server.js",
+     "dependencies": {
+     "express": "~4.9.1"
+     }
+ }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="yomiElu">
+<head>
+	<meta charset="utf-8">
+	<title>Yomi Eluwande <Front-End Developer/></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <meta name="author" content="Yomi Eluwande">
+    <meta name="description" content="Website of Yomi Eluwande - Front-End Developer">
+
+	<!-- set the base path for angular routing -->
+	<base href="/">
+
+	<!-- CSS -->
+	<!-- load bootstrap and fontawesome via CDN -->
+	
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+	<!-- HEADER AND NAVBAR -->
+    <header>
+    <nav class="yominav container">
+    	<div class="logo"><h1><a href="/">ye</a></h1></div>
+		<ul class="navlist">
+			<li><a href="/">Work</a></li>
+			<li><a href="/about">About</a></li>
+			<li><a href="/photography">Photography</a></li>
+			<li><a target="_blank" href="assets/img/resume.docx">Resume</a></li>
+		</ul>
+    </nav>
+	</header>
+
+	<section>
+		<!-- MAIN CONTENT AND INJECTED VIEWS -->
+		<main>
+			<!-- angular templating will go here -->
+			<!-- this is where content will be injected -->
+			<div ng-view></div>
+		</main>	
+	</section>
+	
+
+<!-- JS -->
+	<!-- load angular and angular-route via CDN -->
+	<script src="assets/js/angular.min.js"></script>
+	<script src="assets/js/angular-route.min.js"></script>
+	<script src="assets/js/app.routes.js"></script>
+	<script src="assets/js/app.js"></script>
+
+</body>
+</html>
