@@ -1,2 +1,2 @@
 # portfolio
-codebase for my portfolio site at yomieluwande.xyz
+codebase for my portfolio site at yomieluwande.me
