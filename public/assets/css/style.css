@@ -591,7 +591,7 @@ a {
     float: left;
     margin-left: 30px;
     margin-bottom: 0;
-    
+
 }
 
 .navlist li a {
@@ -757,7 +757,7 @@ a {
 }
 .socialicon .medium {
     background-color: #000;
-    background-image: url('/assets/img/medium.jpg');
+    background-image: url('/assets/img/github.png');
 }
 .socialicon .twitter {
     background-color: #63cdf1;
