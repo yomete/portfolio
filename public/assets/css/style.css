@@ -4,7 +4,6 @@
     padding: 1.25em;
 }
 
-
 .text-white {
     color: #fff;
 }
@@ -663,7 +662,7 @@ a {
     color: white;
 }
 .potrait {
-    background: url("/assets/img/bgimage.jpg") no-repeat center;
+    background: url("/assets/img/covernew.jpg") no-repeat center;
     background-size: cover;
     height: 300px;
     width: 100%;
@@ -698,6 +697,10 @@ a {
     background-color: #6194E1;
     border-color: #6194E1;
     color: #f8f8f8;
+}
+.flutterwave:hover {
+    background-color: #febe12 !important;
+    border-color: #febe12 !important;
 }
 .transition {
     -webkit-transform: translateZ(0);
@@ -804,10 +807,10 @@ a {
     padding: 2%;
 }
 .album1 {
-    background-image: url('/assets/img/birdy.jpg');
+    background-image: url('/assets/img/kod.jpg');
 }
 .album2 {
-    background-image: url('/assets/img/kendrick.jpg');
+    background-image: url('/assets/img/ye.jpg');
 }
 .album_container {
     height: 100%;

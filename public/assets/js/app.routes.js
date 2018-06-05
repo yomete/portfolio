@@ -7,12 +7,17 @@ angular.module('routerRoutes', ['ngRoute'])
 
         // route for the home page
         .when('/', {
-            templateUrl : 'views/pages/work.html'
+            templateUrl : 'views/pages/about.html'
         })
 
         // route for the about page
         .when('/about', {
             templateUrl : 'views/pages/about.html'
+        })
+
+        // route for the work page
+        .when('/work', {
+            templateUrl : 'views/pages/work.html'
         })
 
         // route for the photography page
