@@ -703,7 +703,7 @@ a {
     border-color: #febe12 !important;
 }
 .medium:hover {
-    background-color: #03a87c !important;
+    /*background-color: #03a87c !important;*/
     border-color: #03a87c !important;
 }
 .transition {
